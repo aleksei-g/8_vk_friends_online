@@ -19,7 +19,6 @@ https://oauth.vk.com/authorize?client_id={IDприложения}&display=page&r
 ```
 python vk_friends_online.py -t xxxxxxxxxxxxxxxxxxxxxxx
 python vk_friends_online.py -l login -p pasword
-
 ```
 
 * Ввод логина и пароля после запуска скрипта:
@@ -30,3 +29,6 @@ python vk_friends_online.py
 >>> Пароль:
 >>> password
 ```
+
+**Установка дополнительных пакетов:**
+Для корректоной работы скрипта необходимо установить модуль для работы с АПИ Вконтакте. Пакет устанавливается по команде `pip install -r requirements.txt`.
